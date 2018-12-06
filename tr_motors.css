@@ -1,0 +1,241 @@
+*{
+    font-family: 'Comfortaa', cursive;
+    margin: 0 0;
+}
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgba(0,0,0,0.01); */
+    align-items: center;
+    margin: 0;
+    -webkit-box-shadow: inset 1px 4px 103px -45px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 1px 4px 103px -45px rgba(0,0,0,0.4);
+    box-shadow: inset 1px 4px 103px -45px rgba(0,0,0,0.4);
+}
+.header_name{
+    margin-bottom: 0px;
+    letter-spacing: 6px;
+
+}
+.red_header{
+    color: #ff2515;
+}
+.header_par{
+    margin-top: 0px;
+    color: #585858;
+}
+.menu_bar{
+    display: flex;
+    justify-content: center;
+}
+.menu_items{
+    width: 93px;
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+}
+.menu_items>a:hover{
+    color: #ff2515;
+}
+.menu_items>a{
+    text-decoration: none;
+    color: #000;
+    vertical-align: -webkit-baseline-middle;
+}
+.phone_num{
+    padding-top: 10px;
+}
+.main_bg{
+    background-image: url(img_012.jpg);
+    /* background-image: url(https://www.netcarshow.com/Mercedes-Benz-SLS_AMG_US_Version-2011-1280-7f.jpg); */
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.main_slog{
+    width: 620px;
+    height: 230px;
+    text-align: center;
+}
+.main_slog>h1{
+    font-size: 71px;
+    color: #ffffff;
+    font-family: "gravity-bold";
+    font-weight: 700;
+    opacity: 1;
+}
+.can{
+    color: #ff2515;
+    font-family: sans-serif;
+}
+.asphalt{
+    background-image: url(img_02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.asphalt svg{
+    width: 40px;
+    margin-bottom: 31px;
+}
+.experience{
+    width: 250px;
+    height: 185px;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+.quality{
+    width: 250px;
+    height: 185px;
+    text-align: center;
+    background-color: #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+.prices{
+    width: 250px;
+    height: 185px;
+    text-align: center;
+    background-color: #dedede;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+.section_1{
+    height: 350px;
+    background-color: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jiffy{
+    width: 700px;
+    height: 280px;
+    font-family: "gravity-bold";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.section_12{
+    font-weight: 600;
+    font-size: 41px;
+}
+.section_13{
+    line-height: 20px;
+}
+.section_14{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #ff2515;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.brands{
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.interest{
+    height: 230px;
+    background-color: #797979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.interest_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 200px;
+    font-weight: bolder;
+}
+.interest_12{
+    font-size: 40px;
+}
+.interest_13{
+    width: 230px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer{
+    height: 430px;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    width: 200px;
+    height: 250px;
+    margin: 0 50px;
+    color: #fff;
+}
+.serv_list{
+    list-style: none;
+    line-height: 30px;
+    margin-top: 20px;
+    padding: 0;
+}
+.hour_list{
+    list-style: none;
+    margin-top: 20px;
+    line-height: 25px;
+    padding: 0;
+}
+.add_list{
+    list-style: none;
+    margin-top: 20px;
+    line-height: 25px;
+    padding: 0;
+}
+.add_list>li:nth-child(2){
+    margin-top: 8%;
+}
+.social{
+    width: 100px;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.social>a{
+    height: 25px;
+    color: currentColor;
+}
+.social>a:hover{
+    color: #ff2515;
+}
+.social svg{
+    width: 25px;
+}
